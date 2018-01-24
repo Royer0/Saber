@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.yamancevik.saber.LevelI"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ImageView
+        android:id="@+id/saberDig"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber"
+        android:layout_width="78dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="puanArttir"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="@+id/saberDig"
+        app:layout_constraintTop_toTopOf="@+id/saberDig"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig2"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.355"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber2"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="puanArttir"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig2"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig2"
+        app:layout_constraintHorizontal_bias="0.42"
+        app:layout_constraintStart_toStartOf="@+id/saberDig2"
+        app:layout_constraintTop_toTopOf="@+id/saberDig2"
+        app:layout_constraintVertical_bias="0.651"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig3"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.632"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber3"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="puanArttir"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig3"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig3"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toStartOf="@+id/saberDig3"
+        app:layout_constraintTop_toTopOf="@+id/saberDig3"
+        app:layout_constraintVertical_bias="0.717"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig4"
+        android:layout_width="135dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber4"
+        android:layout_width="78dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="puanArttir"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig4"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig4"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/saberDig4"
+        app:layout_constraintTop_toTopOf="@+id/saberDig4"
+        app:layout_constraintVertical_bias="0.772"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig5"
+        android:layout_width="175dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.865"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber5"
+        android:layout_width="95dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="puanArttir"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig5"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig5"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="@+id/saberDig5"
+        app:layout_constraintTop_toTopOf="@+id/saberDig5"
+        app:layout_constraintVertical_bias="0.772"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig6"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig5"
+        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.954"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber6"
+        android:layout_width="125dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="puanArttir"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig6"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig6"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/saberDig6"
+        app:layout_constraintTop_toTopOf="@+id/saberDig6"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig7"
+        android:layout_width="125dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="225dp"
+        android:layout_marginTop="132dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.187"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber7"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="puanArttir"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig7"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig7"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="@+id/saberDig7"
+        app:layout_constraintTop_toTopOf="@+id/saberDig7"
+        app:layout_constraintVertical_bias="0.869"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig8"
+        android:layout_width="175dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.45"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber8"
+        android:layout_width="100dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="puanArttir"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig8"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig8"
+        app:layout_constraintHorizontal_bias="0.44"
+        app:layout_constraintStart_toStartOf="@+id/saberDig8"
+        app:layout_constraintTop_toTopOf="@+id/saberDig8"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/saber" />
+
+    <ImageView
+        android:id="@+id/saberDig9"
+        android:layout_width="156dp"
+        android:layout_height="62dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727"
+        app:srcCompat="@drawable/soil" />
+
+    <ImageView
+        android:id="@+id/imageSaber9"
+        android:layout_width="78dp"
+        android:layout_height="120dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="puanArttir"
+        app:layout_constraintBottom_toBottomOf="@+id/saberDig9"
+        app:layout_constraintEnd_toEndOf="@+id/saberDig9"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="@+id/saberDig9"
+        app:layout_constraintTop_toTopOf="@+id/saberDig9"
+        app:layout_constraintVertical_bias="0.696"
+        app:srcCompat="@drawable/saber" />
+
+    <Button
+        android:id="@+id/buttonDur"
+        android:layout_width="129dp"
+        android:layout_height="32dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/holo_red_dark"
+        android:onClick="oyundur"
+        android:text="Oyunu Durdur"
+        android:textColor="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="22dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/hourglass" />
+
+    <TextView
+        android:id="@+id/textZaman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="20dp"
+        android:text="Süre : 30"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textPuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="40dp"
+        android:text="PUANIN : 0"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
